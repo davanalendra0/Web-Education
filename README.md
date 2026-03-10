@@ -16,7 +16,7 @@
 <p>Proyek ini murni merupakan pengembangan Front-End untuk memastikan tampilan yang responsif dan performa visual yang optimal :</p>
 <ul>
 <li>HTML5 : Untuk struktur semantik halaman dan pengorganisasian konten yang kompleks.</li>
-<li>CSS3 : Untuk implementasi tema Green-Dark, sistem grid/flexbox yang responsif, serta tipografi kustom yang modern.</li>
+<li>CSS3 : Untuk implementasi tema Green-Dark, sistem grid/flexbox, serta tipografi kustom yang modern.</li>
 <li>JavaScript : Untuk memberikan fungsi interaktif dan navigasi yang dinamis.</li>
 <li>Deployment : Platform hosting yang digunakan adalah Vercel untuk penerapan cepat dan integrasi Git.</li>
 </ul>
