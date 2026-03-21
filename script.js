@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         navLinks.forEach(function (link) {
             if (link.getAttribute('href') === '#' + current) {
-                link.style.color = 'let(--green-mid)';
+                link.style.color = 'var(--green-mid)';
             } else {
                 link.style.color = '';
             }
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        emailInput.style.borderColor = 'let(--green-accent)';
+        emailInput.style.borderColor = 'var(--green-accent)';
         emailInput.value = '';
         msg.style.display = 'block';
 
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let msg            = document.getElementById('contactMsg');
         msg.style.display  = 'block';
         btn.textContent    = 'Message Sent ✓';
-        btn.style.background = 'let(--green-mid)';
+        btn.style.background = 'var(--green-mid)';
         btn.disabled       = true;
     };
 

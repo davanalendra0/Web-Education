@@ -1055,10 +1055,6 @@ ul {
   align-items: start;
 }
 
-.contact-info {
-
-}
-
 .contact-info .tag {
   margin-bottom: 24px;
 }
@@ -1238,7 +1234,7 @@ footer {
 
 .reveal {
   opacity: 1;
-  transform: translatY(0px);
+  transform: translateY(0px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
